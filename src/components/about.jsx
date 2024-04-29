@@ -1,6 +1,5 @@
 import selfportrait from '../images/selfportrait.jpg';
 
-
 const About = () => {
 
     const text = (
