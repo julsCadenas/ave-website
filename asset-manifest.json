@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ave-website/static/css/main.ba0c9c78.css",
+    "main.js": "/ave-website/static/js/main.e57c65e3.js",
+    "static/media/selfportrait.jpg": "/ave-website/static/media/selfportrait.eb04072a1a7bb176f6d4.jpg",
+    "index.html": "/ave-website/index.html",
+    "main.ba0c9c78.css.map": "/ave-website/static/css/main.ba0c9c78.css.map",
+    "main.e57c65e3.js.map": "/ave-website/static/js/main.e57c65e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba0c9c78.css",
+    "static/js/main.e57c65e3.js"
+  ]
+}
