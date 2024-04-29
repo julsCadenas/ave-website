@@ -1,0 +1,89 @@
+body {
+  background-color: #0d0d0d;
+}
+
+
+/* name of owner or title css */
+
+header {
+  margin-top: 40px; 
+}
+
+.headerName {
+  font-family: "Alata";
+  font-size: xx-large;
+  color: white;
+  text-decoration: none;
+}
+
+.headerName:hover {
+  color: #62778c;
+  transition: color 0.3s ease;
+}
+
+
+/* nav bar styles */
+
+.navbar {
+  font-family: "Alata";
+  font-size: larger;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block; 
+  margin-right: 20px; 
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  color: #62778c;
+  transition: color 0.3s ease;
+}
+
+
+/* about css */
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutTitle {
+  font-family: "Alata";
+  font-size: xx-large;
+  color: white;
+  margin-top: 60px;
+}
+
+.mainProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.profile {
+  font-family: "Alata";
+  color: white;
+  text-align: justify;
+  width: 470px; 
+}
+
+.selfPortrait {
+  margin-left: 20px;
+}
+
+.selfPortrait img {
+  max-width: 325px;
+  height: auto;
+}
