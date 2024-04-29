@@ -10,7 +10,7 @@ const About = () => {
     const text2 = "Asaiah has covered events for his high school and has joined photography organizations, eventually becoming vice president of creatives and design, and later president of a photography organization. He has conducted multiple photoshoots, ranging from photowalks to studio sessions."
 
     return (
-        <center>
+        <center id="About">
             <div class="aboutContainer">
                 <div class="aboutTitle">ABOUT</div>
                 <div class="mainProfile">

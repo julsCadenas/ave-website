@@ -1,5 +1,11 @@
 
 function Header(){
+
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        element.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return(
         <header>
             <center>
@@ -7,13 +13,13 @@ function Header(){
                 <a class="headerName" id="headerName" href="#" >Asaiah Igliane</a>
                 <ul class="navbar" id="navbar">
                     <li>
-                        <a href="#">Photographs</a>
+                        <a href="#" >Photographs</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#" onClick={() => scrollToSection('About')}>About</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#" onClick={() => scrollToSection('footer')}>Contact</a>
                     </li>
                 </ul>
             </center>

@@ -12,7 +12,7 @@ header {
 .headerName {
   font-family: "Alata";
   font-size: xx-large;
-  color: white;
+  color: #F3F4E5;
   text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ header {
 .navbar {
   font-family: "Alata";
   font-size: larger;
-  color: white;
+  color: #F3F4E5;
   list-style-type: none;
   padding: 0;
 }
@@ -40,7 +40,7 @@ header {
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: #F3F4E5;
 }
 
 .navbar a:hover {
@@ -61,9 +61,10 @@ header {
 
 .aboutTitle {
   font-family: "Alata";
-  font-size: 24px; 
-  color: white;
+  font-size: 32px; 
+  color: #F3F4E5;
   margin-top: 20px;
+  animation: fadeIn 0.1s ease-in-out;
 }
 
 .mainProfile {
@@ -75,11 +76,12 @@ header {
 
 .profile {
   font-family: "Alata";
-  color: white;
+  color: #F3F4E5;
   text-align: justify;
   width: 90%; 
   max-width: 500px; 
   margin-bottom: 20px;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .selfPortrait {
@@ -90,7 +92,18 @@ header {
   width: 100%; 
   max-width: 300px; 
   height: auto;
+  animation: fadeIn 0.5s ease-in-out;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 
 @media (min-width: 768px) {
   .mainProfile {
@@ -102,3 +115,77 @@ header {
       margin-left: 20px; 
   }
 }
+
+
+/* footer css */
+
+.breakline {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 75%;
+}
+
+.getintouch {
+  font-family: "Alata";
+  font-size: xx-large;
+  color: #F3F4E5;
+  margin-top: 50px;
+  animation: fadeIn 0.1s ease-in-out;
+}
+
+.contactext {
+  font-family: "Alata";
+  font-size: 18px;
+  color: #F3F4E5;
+  margin-top: 40px;
+  width: 90%;
+  max-width: 550px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.bi.bi-instagram {
+  color: #F3F4E5;
+  transition: color 0.3s ease;
+  font-size: 42px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.bi.bi-instagram:hover {
+  color: #62778c;
+}
+
+.whitespace {
+  color: #0d0d0d;
+}
+
+.email {
+  transition: color 0.3s ease;
+}
+
+.email:hover {
+  color: #62778c;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .footerContainer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .getintouch,
+  .contactext,
+  .bi.bi-instagram {
+    margin-top: 0; 
+  }
+}
+
