@@ -15,7 +15,7 @@ function Header(){
                 </a>
                 <ul class="navbar" id="navbar">
                     <li>
-                        <NavLink to="/photographs" >Photoshoots</NavLink>
+                        <NavLink to="/photographs" >Photos</NavLink>
                     </li>
                     <li>
                         <NavLink exact to="/about" activeClassName="active">About</NavLink>
