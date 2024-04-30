@@ -45,10 +45,6 @@
     transition: font-size 0.3s ease; 
 }
 
-.albumSelector a:active {
-    color: #62778c;
-}
-
 .album {
     animation: fadeIn 0.5s ease-in-out;
 }
@@ -83,3 +79,17 @@
     }
   }
 
+@media (max-width: 767px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image {
+        width: 150px;
+        height: auto; 
+        border-radius: 5px; 
+        object-fit: cover;
+        transition: color 0.3s ease;
+    }    
+
+}
