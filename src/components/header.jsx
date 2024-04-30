@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 
 function Header(){
 
@@ -9,14 +10,15 @@ function Header(){
     return(
         <header>
             <center>
-                {/* <h1 class="headerName" id="headerName" >Asaiah Igliane</h1> */}
-                <a class="headerName" id="headerName" href="#" >Asaiah Igliane</a>
+                <a class="headerName" id="headerName">
+                    <NavLink class="navlink" to="/about">Asaiah Igliane</NavLink>
+                </a>
                 <ul class="navbar" id="navbar">
                     <li>
-                        <a href="#" >Photographs</a>
+                        <NavLink to="/photographs" >Photoshoots</NavLink>
                     </li>
                     <li>
-                        <a href="#" onClick={() => scrollToSection('About')}>About</a>
+                        <NavLink exact to="/about" activeClassName="active">About</NavLink>
                     </li>
                     <li>
                         <a href="#" onClick={() => scrollToSection('footer')}>Contact</a>

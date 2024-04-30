@@ -2,7 +2,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const Footer = () => {
 
-    const text = ( <p>For any inquiries, bookings, collaborations, or any other realated questions email me at <strong class="email">aveigliane@gmail.com
+    const text = ( <p>For any inquiries, bookings, collaborations, or any other realated questions email me at <strong class="email">iglianeasaiah@gmail.com
         </strong>. I will reply as soon as convenient.</p>);
 
     return (
