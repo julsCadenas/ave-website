@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ave-website/static/css/main.19d1cc1f.css",
-    "main.js": "/ave-website/static/js/main.18975d40.js",
+    "main.js": "/ave-website/static/js/main.25bcd6dd.js",
     "static/media/photo37.JPG": "/ave-website/static/media/photo37.589939bb4f818fc59204.JPG",
     "static/media/photo37.jpg": "/ave-website/static/media/photo37.a7d0bbb0b7dd1211338b.jpg",
     "static/media/photo39.jpg": "/ave-website/static/media/photo39.12b7efb7a16d3234d434.jpg",
@@ -98,10 +98,10 @@
     "static/media/bootstrap-icons.woff2?": "/ave-website/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/ave-website/index.html",
     "main.19d1cc1f.css.map": "/ave-website/static/css/main.19d1cc1f.css.map",
-    "main.18975d40.js.map": "/ave-website/static/js/main.18975d40.js.map"
+    "main.25bcd6dd.js.map": "/ave-website/static/js/main.25bcd6dd.js.map"
   },
   "entrypoints": [
     "static/css/main.19d1cc1f.css",
-    "static/js/main.18975d40.js"
+    "static/js/main.25bcd6dd.js"
   ]
 }
