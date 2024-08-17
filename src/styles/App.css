@@ -23,7 +23,7 @@ header {
 }
 
 .headerName a:hover {
-  color: #62778c;
+  color: #737373;
   font-size: xxx-large;
   transition: color 0.3s ease;
   transition: font-size 0.3s ease; 
@@ -38,6 +38,7 @@ header {
   color: #F3F4E5;
   list-style-type: none;
   padding: 0;
+  cursor: pointer;
 }
 
 .navbar li {
@@ -53,7 +54,7 @@ header {
 }
 
 .navbar a:hover {
-  color: #62778c;
+  color: #737373;
   font-size: x-large;
   transition: color 0.3s ease;
   transition: font-size 0.3s ease; 
@@ -163,7 +164,7 @@ header {
 }
 
 .bi.bi-instagram:hover {
-  color: #62778c;
+  color: #737373;
   font-size: 48px;
   transition: font-size 0.3s ease; 
 }
@@ -174,10 +175,11 @@ header {
 
 .email {
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .email:hover {
-  color: #62778c;
+  color: #737373;
 }
 
 @keyframes fadeIn {

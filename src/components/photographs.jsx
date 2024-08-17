@@ -273,19 +273,19 @@ const Photographs = () => {
                 </div>
                 <ul className="albumSelector">
                     <li>
-                        <a onClick={() => handleAlbumClick('CosMania')}>CosMania</a>
+                        <a href='#cosmania' onClick={() => handleAlbumClick('CosMania')}>CosMania</a>
                     </li>
                     <li>
-                        <a onClick={() => handleAlbumClick('CosMatsuriD2')}>CosMatsuD2</a>
+                        <a href='#cosmatsu' onClick={() => handleAlbumClick('CosMatsuriD2')}>CosMatsuD2</a>
                     </li>
                     <li>
-                        <a onClick={() => handleAlbumClick('NoirFreitag')}>NoirFreitag</a>
+                        <a href='#noirfreitag' onClick={() => handleAlbumClick('NoirFreitag')}>NoirFreitag</a>
                     </li>
                     <li>
-                        <a onClick={() => handleAlbumClick('OzineFest')}>OzineFest</a>
+                        <a href='#ozine' onClick={() => handleAlbumClick('OzineFest')}>OzineFest</a>
                     </li>
                 </ul>
-                <hr class="breakline"/>
+                {/* <hr className="breakline"/> */}
                 <div className="album">
                     {selectedAlbum === 'CosMania' && (
                         <div className="grid">{renderCosmaniaImages()}</div>

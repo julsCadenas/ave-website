@@ -11,14 +11,14 @@ const About = () => {
 
     return (
         <center id="About">
-            <div class="aboutContainer">
-                <div class="aboutTitle">ABOUT</div>
-                <div class="mainProfile">
-                    <div class="profile">
+            <div className="aboutContainer">
+                <div className="aboutTitle">ABOUT</div>
+                <div className="mainProfile">
+                    <div className="profile">
                         <p>{text}</p>
                         <p>{text2}</p>
                     </div>
-                    <div class="selfPortrait">
+                    <div className="selfPortrait">
                         <img src={selfportrait} alt="Self Portrait"></img>
                     </div>
                 </div>

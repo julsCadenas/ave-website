@@ -10,10 +10,10 @@ function Header(){
     return(
         <header>
             <center>
-                <a class="headerName" id="headerName">
-                    <NavLink class="navlink" to="/about">Asaiah Igliane</NavLink>
-                </a>
-                <ul class="navbar" id="navbar">
+                <p className="headerName" id="headerName">
+                    <NavLink className="navlink" to="/about">Asaiah Igliane</NavLink>
+                </p>
+                <ul className="navbar" id="navbar">
                     <li>
                         <NavLink to="/photographs" >Photos</NavLink>
                     </li>
@@ -21,7 +21,7 @@ function Header(){
                         <NavLink exact to="/about" activeClassName="active">About</NavLink>
                     </li>
                     <li>
-                        <a href="#" onClick={() => scrollToSection('footer')}>Contact</a>
+                        <a href='#contact' onClick={() => scrollToSection('footer')}>Contact</a>
                     </li>
                 </ul>
             </center>

@@ -39,7 +39,7 @@
 }
   
 .albumSelector a:hover {
-    color: #62778c;
+    color: #737373;
     font-size: 28px;
     transition: color 0.3s ease;
     transition: font-size 0.3s ease; 
@@ -47,6 +47,8 @@
 
 .album {
     animation: fadeIn 0.5s ease-in-out;
+    border-top: 2px solid #F3F4E5;
+    padding-top: 15px;
 }
 
 .grid {
