@@ -14,17 +14,18 @@ const Footer = () => {
         copyEmailToClipboard();
     };
 
-    const text = ( <p>For any inquiries, bookings, collaborations, or any other realated questions email me at <strong class="email" title='click to copy' onClick={() => handleNameClick()}>{originalText}
-        </strong>. I will reply as soon as convenient.</p>);
+    const text = ( 
+        <p>For any inquiries, bookings, collaborations, or any other realated questions email me at <strong className="email" title='click to copy' onClick={() => handleNameClick()}>{originalText}
+        </strong>. I will reply as soon as convenient.
+        </p>
+        );
 
     return (
         <center id="footer">
             <footer>
                 <hr className="breakline" />
                 <div className="getintouch">Get in Touch</div>
-                <div className="contactext">
-                    <p>{text}</p>
-                </div>
+                <div className="contactext">{text}</div>
                 <a href='https://www.instagram.com/aai.psd/' target='_blank' rel="noreferrer" >
                     <i className='bi bi-instagram' />
                 </a>

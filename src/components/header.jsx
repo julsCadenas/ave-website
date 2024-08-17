@@ -10,15 +10,15 @@ function Header(){
     return(
         <header>
             <center>
-                <p className="headerName" id="headerName">
+                <div className="headerName" id="headerName">
                     <NavLink className="navlink" to="/about">Asaiah Igliane</NavLink>
-                </p>
+                </div>
                 <ul className="navbar" id="navbar">
                     <li>
                         <NavLink to="/photographs" >Photos</NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/about" activeClassName="active">About</NavLink>
+                    <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink>
                     </li>
                     <li>
                         <a href='#contact' onClick={() => scrollToSection('footer')}>Contact</a>
